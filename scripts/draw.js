@@ -72,14 +72,14 @@ function between(x, min, max) {
 }
 
 function button_peek(){
-		if (window.confirm("Are you sure you want to peek?")) {
+		if (window.confirm("Weet je zeker dat je wil gluren?")) {
 				draw(randpos);
 		}
 }
 
 
 function button_guess(){
-		if (window.confirm("Is this your final guess?")) {
+		if (window.confirm("Is dit je uiteindelijke antwoord?")) {
 				drawguess();
 		}
 }
