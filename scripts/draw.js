@@ -8,6 +8,8 @@ var recW = (binW/1000)*cw;
 var recW2 = 3*binW;
 var recW3 = 5*binW;
 
+var text = document.getElementById("guessdisp");
+text.style.display = "none";
 
 
 function position(x){
